@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: radial-gradient(#56ab2f, #a8e063);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: 0.8;
+  animation: spin 1s infinite;
+  animation-timing-function: linear;
+  /* height: 250px;
+  width: 250px; */
+  position: relative;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
