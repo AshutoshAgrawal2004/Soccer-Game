@@ -33,7 +33,7 @@ function preload() {
   kicksound = loadSound("https://dl.dropbox.com/s/3etf4lhvu0rosdw/FOOTBALLKICK.mp3?raw=1");
   cheers = loadSound("https://dl.dropbox.com/s/cntfvu6mtjzcptp/cheer2.mp3?raw=1");
   hitwallsound = loadSound("https://dl.dropbox.com/s/hhb1340y06tb2eu/BOUNCE%2B1.mp3?raw=1");
-  footballimg = loadImage('https://dl.dropbox.com/s/hdbe2jp5frpaj34/unnamed.png?raw=1');
+  footballimg = loadImage('https://i.imgur.com/95gDttF.png');
   // scorefont = loadFont('scoreboard.ttf');
   // kicksound = loadSound('FOOTBALLKICK.mp3');
   // cheers = loadSound("cheer2.mp3");
